@@ -7,7 +7,7 @@ const Yoga = () => {
         <div className="yoga-content d-flex flex-column">
           <h3 className="fw-semibold mb-4">Don't Miss</h3>
           <div className="yoga-images row me-5 ">
-            <div className="col-lg-6 col-sm-12">
+            <div className="col-lg-6 col-sm-12 mb-3">
               {" "}
               <div className="yoga_1">
                 <img className="yoga_img" src="Yoga_1.jpg" alt="" />
@@ -22,7 +22,7 @@ const Yoga = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 col-sm-12">
+            <div className="col-lg-6 col-sm-12 mb-3">
               {" "}
               <div className="yoga_2">
                 <img className="yoga_img" src="Yoga_2.jpg" alt="" />

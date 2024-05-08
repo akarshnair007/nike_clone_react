@@ -23,7 +23,7 @@ const Sport = () => {
 
   return (
     <>
-      <div className="container-fluid my-5 mx-5">
+      <div className="container-fluid my-5">
         <div className="row">
           <div className="col-lg-12 col-sm-12">
             <h3 className="fw-semibold mb-4">Shop by Sport</h3>

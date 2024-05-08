@@ -22,7 +22,7 @@ const Spotlight = () => {
   };
   return (
     <>
-      <div className="container-fluid my-5 mx-5">
+      <div className="container-fluid my-5">
         <h3 className="fw-semibold mb-4">Classic Spotlight</h3>
 
         <div className="collection_1">
