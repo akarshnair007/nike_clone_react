@@ -3,7 +3,7 @@ import React from "react";
 const Summer = () => {
   return (
     <>
-      <div className="container-fluid my-5 mx-4">
+      <div className="container-fluid my-5">
         <h3 className="fw-semibold mb-4">Summer Must-Haves</h3>
 
         <div className=" mb-4 row">
