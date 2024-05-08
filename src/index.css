@@ -1,9 +1,11 @@
 * {
   margin: 0;
   padding: 0;
+}
+body {
+  height: auto;
   overflow-x: hidden;
 }
-
 @font-face {
   font-family: "helveti";
 
@@ -61,8 +63,4 @@
 }
 h6 {
   cursor: pointer;
-}
-.help_link {
-  color: "gray";
-  font-size: "12px";
 }

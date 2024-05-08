@@ -6,16 +6,6 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
 const Header = () => {
-  const [expand, setExpand] = useState(false);
-
-  const handleMouseEnter = () => {
-    setExpand(!expand);
-  };
-  const handleMouseLeave = () => {
-    setExpand(!expand);
-  };
-  console.log(expand);
-
   return (
     <Navbar expand="lg">
       <Container>
@@ -25,12 +15,7 @@ const Header = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto ">
-            <Nav.Link
-              href="#home"
-              className="text-dark fw-bold"
-              onMouseEnter={handleMouseEnter}
-              onMouseLeave={handleMouseLeave}
-            >
+            <Nav.Link href="#home" className="text-dark fw-bold">
               New & Featured
             </Nav.Link>
             <Nav.Link href="#link" className="text-dark fw-bold">
