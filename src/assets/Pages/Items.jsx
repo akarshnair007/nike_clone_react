@@ -3,8 +3,8 @@ import React from "react";
 const Items = () => {
   return (
     <>
-      <div className="container-fluid items_part mx-5">
-        <div className="row">
+      <div className="container-fluid items_part mx-5 ">
+        <div className="row text-center">
           <div className="col-lg-1 col-sm-12"></div>
           <div className="col-lg-2 col-sm-12 d-flex align-items-center justify-content-center">
             <div className="items">

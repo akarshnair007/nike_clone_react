@@ -3,7 +3,7 @@ import React from "react";
 const Yoga = () => {
   return (
     <>
-      <div className="container-fluid my-5 mx-5">
+      <div className="container-fluid my-5 ms-2 me-3">
         <div className="yoga-content d-flex flex-column">
           <h3 className="fw-semibold mb-4">Don't Miss</h3>
           <div className="yoga-images row me-5 ">
