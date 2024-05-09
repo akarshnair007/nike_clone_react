@@ -27,6 +27,7 @@ const App = () => {
       <Spotlight />
       <Sport />
       <Items />
+
       <Footer />
     </>
   );

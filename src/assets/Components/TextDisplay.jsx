@@ -13,16 +13,15 @@ const TextDisplay = () => {
   }, [texts]);
 
   useEffect(() => {
-    // Update texts array when currentIndex changes
     setTexts([
       <>
-        <p>Save upto 40%</p>
+        <p style={{ fontSize: "1.2vw" }}>Save upto 40%</p>
         <a
           href=""
           style={{
             textDecoration: "underline",
             color: "black",
-            fontSize: "12px",
+            fontSize: "1vw",
             fontWeight: "680",
           }}
         >
@@ -30,7 +29,7 @@ const TextDisplay = () => {
         </a>
       </>,
       <>
-        <p>
+        <p style={{ fontSize: "1.2vw" }}>
           Save Up to 40% Shop All Our New Markdowns Move, Shop, Customise &
           Celebrate With Us.
           <br />
@@ -41,7 +40,7 @@ const TextDisplay = () => {
           style={{
             textDecoration: "underline",
             color: "black",
-            fontSize: "12px",
+            fontSize: "1vw",
             fontWeight: "680",
           }}
         >
