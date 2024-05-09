@@ -51,7 +51,14 @@ const TextDisplay = () => {
   }, [currentIndex]);
 
   return (
-    <div style={{ backgroundColor: "#f5f5f5" }}>
+    <div
+      className="text_display"
+      style={{
+        backgroundColor: "#f5f5f5",
+        marginTop: "14vh",
+      }}
+    >
+      {/* Added paddingTop to create space for the fixed header */}
       <h6 className="text-center py-3" style={{ marginBottom: "0px" }}>
         {texts[currentIndex]}
       </h6>

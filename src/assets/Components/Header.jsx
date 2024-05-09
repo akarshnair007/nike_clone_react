@@ -7,7 +7,7 @@ import Navbar from "react-bootstrap/Navbar";
 
 const Header = () => {
   return (
-    <Navbar expand="lg">
+    <Navbar expand="lg" className="fixed-top">
       <Container>
         <Navbar.Brand href="#home">
           <img src="nike_logo.png" height={70} width={70} alt="" />
